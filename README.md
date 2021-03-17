@@ -1,5 +1,7 @@
 # 11ty Pug Portfolio
 
+This project is based on https://github.com/vktrwlt/vktr-portfolio-v5 by Victor Tsang.
+
 Features:
 
 - [11ty](https://www.11ty.io/) for templates and site generation
