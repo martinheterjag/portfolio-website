@@ -31,6 +31,21 @@ module.exports = [
 					The PSU PCB have a +- 12V rails as well as a 5V rail for digital modules. The PSU schematic and PCB is designed in KiCad.`,
 			},
 			{
+				sectionHeader: "",
+				sectionHeaderImageName: "wip-case",
+				sectionDetails: `A picture of the case before it was painted.`,
+			},
+			{
+				sectionHeader: "",
+				sectionHeaderImageName: "3d-view",
+				sectionDetails: `A 3D model of the PSU.`,
+			},
+			{
+				sectionHeader: "",
+				sectionHeaderImageName: "powerbus",
+				sectionDetails: `Eurorack bus to connect modules to the PSU.`,
+			},
+			{
 				sectionHeader: "Eurorack module LPG",
 				sectionHeaderImageName: "lpg",
 				sectionDetails: `A classic module, the Buchla 292. Later it was cloned by Peter Grenader and released as a part of on Ken Stone's
@@ -47,7 +62,7 @@ module.exports = [
 			},
 			{
 				sectionHeader: "Eurorack module mixer modules",
-				sectionHeaderImageName: "",
+				sectionHeaderImageName: "mixer",
 				sectionDetails: `Two different mixer modules, one with knob for each input and input 1 is normalized to 12V to act as an offset knob if needed.
 					The other one have a smaller footprint and a higher gain to boost signals if needed. Both mixers are based on the same circuit, an opamp
 					coupled as a summing inverting amplifier followed by an inverter. The larger mixer also have an output before the second stage to get an
