@@ -1,0 +1,32 @@
+.hero {
+	@apply text-4xl font-bold;
+}
+
+@screen lg {
+	.hero {
+		@apply text-5xl;
+	}
+}
+
+.headline-1 {
+	@apply text-3xl font-bold;
+}
+.headline-2 {
+	@apply text-2xl font-bold;
+}
+
+.headline-3 {
+	@apply text-xl;
+}
+
+// @screen lg {
+// 	.headline-1 {
+// 		@apply text-3xl;
+// 	}
+// 	.headline-2 {
+// 		@apply text-2xl;
+// 	}
+// 	.headline-3 {
+// 		@apply text-xl;
+// 	}
+// }

@@ -1,0 +1,16 @@
+extends ../_includes/layouts/default.pug
+
+block content
+    section
+        h1(class="hero") Martinheterjag!
+        h1(class="hero", style="font-size: 25px")
+            | I make synths!
+            | And VST plugins!
+            | And Quake 3 maps!
+            | And Emulators!
+            | And more!
+        p *Martin heter jag is swedish for &quot;My name is Martin&quot;
+    section
+        h2(class="mt-16 mb-8 md:mb-4 uppercase font-bold") Featured Projects
+        div(class="md:flex md:flex-wrap md:-mx-4 lg:-mx-6")
+            +portfolioList

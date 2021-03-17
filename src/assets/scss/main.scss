@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import "./core/generic_boxsizing";
+@import "./vendors/tailwind";
+
+@import "./utils/utilities";
+
+@import "./base/_global";
+@import "./base/_heading";
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/card";
+@import "./components/project";

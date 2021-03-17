@@ -1,0 +1,18 @@
+footer(class="footer py-8 text-white text-center")
+	ul(class="flex items-center justify-center my-6")
+		li(class="mx-4")
+			a(class="footer__icon-link" href=site.linkedIn title="view linkedin portfolio" target="_blank" rel="noopener noreferrer")
+				svg(width="1.5em", height="1.5em")
+					use(xlink:href= "#icon-linkedin")
+		li(class="mx-4")
+			a(class="footer__icon-link" href=site.github title="view github portfolio" target="_blank" rel="noopener noreferrer")
+				svg(width="1.5em", height="1.5em")
+					use(xlink:href= "#icon-github")
+		li(class="mx-4")
+			a(class="footer__icon-link" href=`mailto:${site.email}` title="send me an email" target="_blank" rel="noopener noreferrer")
+				svg(width="1.5em", height="1.5em")
+					use(xlink:href= "#icon-email")
+
+	p(class="text-base") &copy; #{assets['year']} Martin Eriksson
+	p(class="text-base") Webpage template based on&nbsp;
+		a(href="https://github.com/vktrwlt/vktr-portfolio-v5") vktr-portfolio-v5

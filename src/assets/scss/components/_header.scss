@@ -1,0 +1,53 @@
+nav li {
+	@apply py-4 w-full;
+	&:not(:last-child) {
+		@apply mr-8;
+	}
+}
+@screen sm {
+	nav li {
+		@apply py-0;
+	}
+}
+
+nav li a {
+	display: block;
+
+	width: 100%;
+	&.active {
+		@apply text-custom-blue;
+	}
+	// Underline
+	@screen sm {
+		&::after {
+			content: "";
+			display: block;
+
+			height: 3px;
+			width: 0;
+			@apply bg-custom-blue;
+		}
+		&:hover,
+		&:focus {
+			@apply text-custom-blue;
+		}
+
+		// Hover Underline
+		&:hover::after {
+			width: 100%;
+			transition: width 0.3s ease 0s;
+		}
+		&:focus::after {
+			width: 100%;
+			transition: width 0.3s ease 0s;
+		}
+	}
+}
+// mobile menu
+#menu-toggle:checked + #menu {
+	@apply block mt-2;
+}
+
+.hamburger-color {
+	@apply text-custom-blue;
+}

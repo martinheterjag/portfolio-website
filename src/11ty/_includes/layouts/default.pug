@@ -1,0 +1,54 @@
+doctype html
+//- Import mixins here to use globally
+include ../../_includes/mixins/mixins.pug
+html(lang='en-us' class='antialiased overflow-y-scroll')
+	head
+		//- Meta Tags
+		title #{siteAttributes[page.fileSlug] ? siteAttributes[page.fileSlug].metaTitle : site.metaDescription }
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible' content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(
+			name='description',
+			content=siteAttributes[page.fileSlug] ? siteAttributes[page.fileSlug].metaDescription : site.metaDescription
+		)
+		meta(name='author', content=site.author)
+		meta(name="theme-color" content="#317EFB")
+
+		style
+			include ../inline/fonts.css
+
+		if(project.production)
+			style
+				include ../../../../dist/assets/css/main.css
+		else
+			link(rel='stylesheet', href=assets["main.css"])
+
+		//- link(rel="preload" href="/assets/fonts/muli-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin)
+
+		link(rel="preconnect" crossorigin href="https://stats.g.doubleclick.net")
+		link(rel="preconnect" crossorigin href="https://www.google-analytics.com")
+
+		link(rel='canonical', href=site.url + page.url)
+		link(rel="manifest" href="/manifest.json")
+		link(rel="apple-touch-icon" href="/apple-touch-icon.png")
+		link(rel="shortcut icon", href="/favicon.ico")
+
+	include ../sprites/sprites.svg
+
+- var bodyClass = page.url !== "/" ? page.fileSlug : "home"
+
+	body(class=bodyClass)
+		a(class="sr-only" href="#main") Skip to content
+		include ../partials/header.pug
+		div.flex.flex-col.min-h-screen
+			include ../partials/main.pug
+				block content
+			include ../partials/footer.pug
+
+	if(project.development)
+		script(src=assets["main.js"])
+
+	if(project.production)
+		script
+			include ../inline/scripts.js
