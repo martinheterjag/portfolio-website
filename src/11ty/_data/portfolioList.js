@@ -13,7 +13,10 @@ module.exports = [
 		],
 		tech: [
 			"Electronics",
-			"Circuit design"
+			"Circuit design",
+			"KiCad",
+			"Eagle",
+			"LTspice"
 		],
 		about: [
 			`Synthesizers and music tech gear, I love it! To build, to play or to just dream about.
@@ -21,6 +24,35 @@ module.exports = [
 			My lovely girlfriend Josefina Kennebjörk have been my woodworking partner for many of these projects.`,
 		],
 		moreDetails: [
+			{
+				sectionHeader: "Eurorack wooden case and PSU",
+				sectionHeaderImageName: "case",
+				sectionDetails: `The case is made in pinewood and painted, four 84 HP Eurorack rails are mounted in the case, which makes it a 6U 84hp rack.
+					The PSU PCB have a +- 12V rails as well as a 5V rail for digital modules. The PSU schematic and PCB is designed in KiCad.`,
+			},
+			{
+				sectionHeader: "Eurorack module LPG",
+				sectionHeaderImageName: "lpg",
+				sectionDetails: `A classic module, the Buchla 292. Later it was cloned by Peter Grenader and released as a part of on Ken Stone's
+					CGS project. I based it on the schematics found on Ken Stone's website but tweaked it a little bit and made a new PCB design in KiCad.
+					The faceplate is made in aluminium, ahnd drilled and hand painted`,
+			},
+			{
+				sectionHeader: "Eurorack module CEM3340 VCO",
+				sectionHeaderImageName: "cem3340",
+				sectionDetails: `Dual VCO based on the classic CEM3340 IC used in many vintage synths like Roland SH-101, Moog Memorymoog,
+					Sequental Circuits Prophet 5 and many more. Each VCO has saw and triangle outputs and 1V/oct and frequency CV inputs.
+					There is a switch for turning on soft sync or hard sync between the two oscillators. If you feed the VCO with a negative voltage
+					it is possible to use it as an LFO. The circuit and PCB was designed in KiCad, the faceplate is painted aluminium.`,
+			},
+			{
+				sectionHeader: "Eurorack module mixer modules",
+				sectionHeaderImageName: "",
+				sectionDetails: `Two different mixer modules, one with knob for each input and input 1 is normalized to 12V to act as an offset knob if needed.
+					The other one have a smaller footprint and a higher gain to boost signals if needed. Both mixers are based on the same circuit, an opamp
+					coupled as a summing inverting amplifier followed by an inverter. The larger mixer also have an output before the second stage to get an
+					inverted output`,
+			},
 			{
 				sectionHeader: "CV Gate Keyboard",
 				sectionHeaderImageName: "red-keyboard",
