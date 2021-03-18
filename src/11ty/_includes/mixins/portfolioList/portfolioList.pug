@@ -6,8 +6,8 @@ mixin portfolioList
 					h2(class="text-3xl mb-4 font-bold") #{project.title}
 					p !{project.description}
 					div.mt-auto
-						div(class="mt-8 flex")
+						div(class="mt-2 flex")
 							p(class="card__action text-lg font-bold ") View Project
-				div(class="mt-4 pl-16 lg:pl-24 flex justify-end")
+				div(class="mt-2 pl-8 pr-8 pb-8 flex justify-end")
 					+picture(project.imagePath,"thumbnail",['png'], "")
 						//- don't need alt text since img is a decoration and have surround desc text
