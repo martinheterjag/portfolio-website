@@ -75,10 +75,10 @@ module.exports = [
 				sectionDetails: `Picture of the mixer with more gain and smaller footprint.`,
 			},
 			{
-				sectionHeader: "Drakryggen Plingeling",
+				sectionHeader: "Skarp Plingeling",
 				sectionHeaderImageName: "pling-vco",
-				sectionDetails: `Drakryggen Plingeling was a competence development project I did together with a collegue, Linus Fredriksson, at Drakryggen
-				(Note, Drakryggen have changed name to <i>Skarp</i> since then). We made a VCA module, a VCO and started to design a state veriable filter.
+				sectionDetails: `Skarp Plingeling was a competence development project I did together with a collegue, Linus Fredriksson, at Skarp
+				(Note, when this project was made the company <i>Skarp</i> was named <i>Drakryggen</i>). The name change was done in march 2021). We made a VCA module, a VCO and started to design a state veriable filter.
 				Unforunately (very very sad) Linus passed away durign the project due to sudden health issues, and it was never finished.
 				Both the VCA and VCO was based of the LM13700 IC (a dual transconductance amplifier). The VCA and VCO was was assemblied but no enclosure was built.
 				Simulation was done in LTspice, schematics and PCB design in Eagle and KiCad`,
