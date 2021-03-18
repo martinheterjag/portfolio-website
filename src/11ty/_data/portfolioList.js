@@ -178,4 +178,50 @@ module.exports = [
 			}
 		],
 	},
+	{
+		id: "kanzchip-8",
+		title: "Kanzchip-8",
+		description:
+			"A CHIP-8 emulator written in python",
+		imagePath: "/assets/images/kanzchip-8",
+		heroName: "hero",
+		url: "/project/kanzchip-8",
+		bgColor: "bg-purple-200",
+		role: [
+			"",
+		],
+		tech: ["Python", "pygame"],
+		about: [
+			`kanzchip-8 is a python based CHIP-8 emulator I made together with my friend Chris Stewart, <a class='text-custom-blue' href="https://github.com/cstewart90">cstewart90 on github</a>.`,
+		],
+		moreDetails: [
+			{
+				sectionHeader: "What is CHIP-8?",
+				sectionHeaderImageName: "",
+				sectionDetails: `Snipped from wikipedia:
+					"CHIP-8 is an interpreted prgramming language, developed by Joseph Weisbecker. It was initially used
+					on the COSMAC VIP and Telmac 1800 8-bit microcomputers in the mid-1970s. CHIP-8 programs are run on
+					a CHIP-8 virtual machine. It was made to allow video games to be more easily programmed for
+					these computers." <br><br>CHIP-8 has 35 instructions that are all two bytes long. We have
+					implemented the instructions based on <a class='text-custom-blue' href=http://devernay.free.fr/hacks/chip8/C8TECH10.HTM>Cowgod's Chip-8 technical reference</a>.`,
+			},
+			{
+				sectionHeader: "How to run kanzchip-8",
+				sectionDetails: `From the root folder of the repository, run <span class=font-mono>python -m src</span>.
+					To run unit tests run <span class=font-mono>python -m unit-test</span>. To run with debug logs run
+					<span class=font-mono>python -m src -d</span>`,
+			},
+			{
+				sectionHeader: "Dependencies",
+				sectionDetails: `kanzchip-8 was developed with Python 3.9 and pygame, run pip install -r requirements.txt
+					to install all modules needed to run the emulator.`,
+			},
+			{
+				sectionHeader: "Menu bar",
+				sectionDetails: `The menu bar holds functions to load a ROM file, reset the currently playing ROM, set
+					CPU rate, sound volume as well as setting shift quirks on or off, which affects how the bit-shift
+					instructions are working.`,
+			},
+		],
+	},
 ];
