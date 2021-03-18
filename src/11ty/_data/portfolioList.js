@@ -21,7 +21,8 @@ module.exports = [
 		about: [
 			`Synthesizers and music tech gear, I love it! To build, to play or to just dream about.
 			This is a collection of the music tech DIY projects I've been working with the past few years.
-			My lovely girlfriend Josefina Kennebjörk have been my woodworking partner for many of these projects.`,
+			My lovely girlfriend Josefina Kennebjörk have been my woodworking partner for many of these projects and also
+			helped with soldering.`,
 		],
 		moreDetails: [
 			{
@@ -69,6 +70,25 @@ module.exports = [
 					inverted output`,
 			},
 			{
+				sectionHeader: "",
+				sectionHeaderImageName: "mix",
+				sectionDetails: `Picture of the mixer with more gain and smaller footprint.`,
+			},
+			{
+				sectionHeader: "Drakryggen Plingeling",
+				sectionHeaderImageName: "pling-vco",
+				sectionDetails: `Drakryggen Plingeling was a competence development project I did together with a collegue, Linus Fredriksson, at Drakryggen
+				(Note, Drakryggen have changed name to <i>Skarp</i> since then). We made a VCA module, a VCO and started to design a state veriable filter.
+				Unforunately (very very sad) Linus passed away durign the project due to sudden health issues, and it was never finished.
+				Both the VCA and VCO was based of the LM13700 IC (a dual transconductance amplifier). The VCA and VCO was was assemblied but no enclosure was built.
+				Simulation was done in LTspice, schematics and PCB design in Eagle and KiCad`,
+			},
+			{
+				sectionHeader: "",
+				sectionHeaderImageName: "pling-vca",
+				sectionDetails: `Picture of the VCA circuit.`,
+			},
+			{
 				sectionHeader: "CV Gate Keyboard",
 				sectionHeaderImageName: "red-keyboard",
 				sectionDetails: `It's made out of wood, it's red and it's beautiful. It contains a +- 12V PSU that i soldered to a perf board and a
@@ -93,8 +113,9 @@ module.exports = [
 			{
 				sectionHeader: "\"Gula Guran\", the yellow electric guitar",
 				sectionHeaderImageName: "gula-guran",
-				sectionDetails: `I assemblied and painted this guitar from a harley benton kit. I don't know much about guitars, but it made me get into
-					guitar pedals and soon i need to build a new pedal board.`,
+				sectionDetails: `I assemblied and painted this guitar from a harley benton kit. I don't know what makes a good guitar, but it works and it's
+					fun to play and inspires me. The project was fun and i would reccomend the kit, it will not make you a vintage guitar but it's the best
+					electric guitar i own! (I only have one more and it's really bad.)`,
 			},
 			{
 				sectionHeader: "Baby 10 Sequencer",
