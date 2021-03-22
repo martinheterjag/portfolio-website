@@ -56,10 +56,22 @@ module.exports = [
 			{
 				sectionHeader: "Eurorack module CEM3340 VCO",
 				sectionHeaderImageName: "cem3340",
-				sectionDetails: `Dual VCO based on the classic CEM3340 IC used in many vintage synths like Roland SH-101, Moog Memorymoog,
+				sectionDetails: `Dual VCO based on the classic CEM3340 IC used in vintage synths like Roland SH-101, Moog Memorymoog,
 					Sequental Circuits Prophet 5 and many more. Each VCO has saw and triangle outputs and 1V/oct and frequency CV inputs.
 					There is a switch for turning on soft sync or hard sync between the two oscillators. If you feed the VCO with a negative voltage
 					it is possible to use it as an LFO. The circuit and PCB was designed in KiCad, the faceplate is painted aluminium.`,
+			},
+			{
+				sectionHeader: "Eurorack module Drum Machine",
+				sectionHeaderImageName: "drum-machine",
+				sectionDetails: `A digital drum module with analog interface, based on Raspbery Pi Zero. You can find the project on this
+					<a class='text-custom-blue' href=https://github.com/martinheterjag/eurorack-drum-machine>github repository</a>. The circuit is
+					soldered on a perf board with headers to mount the Raspbery Pi Zero. There are interfaces tp trigger a bd, sn, cp, ch, oh
+					and cy drum sounds. The actual sounds can be replaced by logging in to the Raspberry Pi Zero via SSH and replace the files.
+					I am using the JUCE C++ framework to trigger the sounds, and i cross compile the project using a gcc tool-chain for raspberry pi.
+					For some reason i am having latency issues when the sounds are played, I've tried with different programming languages and
+					libraries and i found JUCE having the lowest latency, but it's still pretty bad. It is on my to-do list to fix this issue.<br><br>
+					Also, i drew R2D2 on the faceplate, because robots are cool!`,
 			},
 			{
 				sectionHeader: "Eurorack module mixer modules",
@@ -78,7 +90,7 @@ module.exports = [
 				sectionHeader: "Skarp Plingeling",
 				sectionHeaderImageName: "pling-vco",
 				sectionDetails: `Skarp Plingeling was a competence development project I did together with a collegue, Linus Fredriksson, at Skarp
-				(Note, when this project was made the company <i>Skarp</i> was named <i>Drakryggen</i>). The name change was done in march 2021). We made a VCA module, a VCO and started to design a state veriable filter.
+				(Note, when this project was made the company <i>Skarp</i> was named <i>Drakryggen</i>. The name change was done in march 2021). We made a VCA module, a VCO and started to design a state veriable filter.
 				Unforunately (very very sad) Linus passed away durign the project due to sudden health issues, and it was never finished.
 				Both the VCA and VCO was based of the LM13700 IC (a dual transconductance amplifier). The VCA and VCO was was assemblied but no enclosure was built.
 				Simulation was done in LTspice, schematics and PCB design in Eagle and KiCad`,
