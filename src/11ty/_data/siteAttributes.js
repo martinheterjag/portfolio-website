@@ -1,25 +1,30 @@
 module.exports = {
 	"": {
-		metaTitle: "Portfolio | Martin Eriksson",
+		metaTitle: "Portfolio | Martinheterjag",
 		metaDescription: "My portfolio",
 	},
 	about: {
-		metaTitle: "About Me | Martin Eriksson",
+		metaTitle: "About Me | Martinheterjag",
 		metaDescription: "About Me",
 	},
-	// "11ty-portfolio": {
-	// 	metaTitle: "11ty Portfolio | Martin Eriksson",
-	// 	metaDescription:
-	// 		"A static site portfolio built using 11ty, Pug templates, TailwindCSS, and Webpack",
-	// },
+	"hardware-synths": {
+		metaTitle: "Hardware synthesizers | Martinheterjag",
+		metaDescription:
+			"Hardware synthesizers, sequencers and effects",
+	},
 	"juce-projects": {
-		metaTitle: "JUCE Projects | Martin Eriksson",
+		metaTitle: "JUCE Projects | Martinheterjag",
 		metaDescription:
 			"A collection of projects made with the JUCE framework",
 	},
-	// dangfoods: {
-	// 	metaTitle: "Dang Foods | Martin Eriksson",
-	// 	metaDescription:
-	// 		"Custom WordPress Development for Dang Foods' e-Commerce site",
-	// },
+	"kanzchip-8": {
+		metaTitle: "Kanzchip-8 | Martinheterjag",
+		metaDescription:
+			"A CHIP-8 emulator written in python",
+	},
+	"quake-maps": {
+		metaTitle: "Quake 3 Arena maps | Martinheterjag",
+		metaDescription:
+			"Quake 3 Arena maps",
+	},
 };
