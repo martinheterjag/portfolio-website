@@ -236,4 +236,33 @@ module.exports = [
 			},
 		],
 	},
+	// {
+	// 	id: "template",
+	// 	title: "template",
+	// 	description:
+	// 		"This is a template for a project",
+	// 	imagePath: "/assets/images/template",
+	// 	heroName: "hero",
+	// 	url: "/project/template",
+	// 	bgColor: "bg-blue-200",
+	// 	role: [
+	// 		"",
+	// 	],
+	// 	tech: ["Things", "Stuff"],
+	// 	about: [
+	// 		`A short description of the project`,
+	// 	],
+	// 	moreDetails: [
+	// 		{
+	// 			sectionHeader: "Header",
+	// 			sectionHeaderImageName: "image-name",
+	// 			sectionDetails: `Text text text`,
+	// 		},
+	// 		{
+	// 			sectionHeader: "Another header",
+	// 			sectionHeaderImageName: "another-image-name",
+	// 			sectionDetails: `Text text text`,
+	// 		},
+	// 	],
+	// },
 ];
