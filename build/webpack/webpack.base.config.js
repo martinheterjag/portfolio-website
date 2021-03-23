@@ -34,6 +34,10 @@ module.exports = {
 				from: "./src/assets/images/**/*.{png,jpg,jpeg}",
 				to: "./assets/images/[folder]/[name].webp",
 			},
+			{
+				from: "./src/assets/quake-maps/*.zip",
+				to: "./assets/quake-maps/[name].zip",
+			}
 		]),
 		new ImageminWebpackPlugin({
 			plugins: [

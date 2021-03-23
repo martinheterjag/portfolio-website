@@ -236,6 +236,43 @@ module.exports = [
 			},
 		],
 	},
+	{
+		id: "quake-maps",
+		title: "Quake 3 Arena maps",
+		description:
+			"Maps I've made for Quake 3 Arena / Quake Live",
+		imagePath: "/assets/images/quake-maps",
+		heroName: "hero",
+		url: "/project/quake-maps",
+		bgColor: "bg-orange-200",
+		role: [
+			"",
+		],
+		tech: ["GtkRadiant", "GNU Gimp 2"],
+		about: [
+			`A collection of maps I've made for the game Quake 3 Arena. It's possible to play the maps on Quake Live as well.
+			 I've always been into making content for games, ever since i was a kid. Feel free to download and play my maps!`,
+		],
+		moreDetails: [
+			{
+				sectionHeader: "mhj-t1",
+				sectionHeaderImageName: "mhjtourney1",
+				sectionDetails: `The first quake 3 map I made back in 2012. It is made for Duel, small team games or FFA. It's set in some
+					kind of abstact temple scene.<br><br>
+					<a class='text-custom-blue' download href="/assets/quake-maps/mhj-t1.zip">Download map</a>`,
+			},
+			{
+				sectionHeader: "mhjtourney2",
+				sectionHeaderImageName: "mhjtourney2",
+				sectionDetails: `This map was made for the <a class='text-custom-blue',
+					href="https://www.moddb.com/groups/maverick-servers-quake-3-mapping-competition">
+					Maverics Servers Quake 3 Mapping Competition 2012</a>. This map was placed on 4th place.
+					The theme of the map is a rainy construction site or factory of some sort. Like any proper quake map,
+					it's very abstract and nothing like any construction site in the real world.<br><br>
+					<a class='text-custom-blue' download href="/assets/quake-maps/mhjtourney2.zip">Download map</a>`,
+			},
+		],
+	},
 	// {
 	// 	id: "template",
 	// 	title: "template",
