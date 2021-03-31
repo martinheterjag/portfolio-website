@@ -310,8 +310,8 @@ module.exports = [
 			{
 				sectionHeader: "mhj-space1",
 				sectionHeaderImageName: "mhj-space1",
-				sectionDetails: `Ever played a space map in pink fog? now you have the chance! This
-					map was made for FFA or other casual game modes. It is gimicky as a space map should be and fun to play.<br><br>
+				sectionDetails: `Ever played a space map in pink fog? Now you have the chance! This
+					map was made for FFA or other casual game modes. It's gimicky as a space map should be and fun to play.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhj-space1.zip">Download map</a>`,
 			},
 		],
