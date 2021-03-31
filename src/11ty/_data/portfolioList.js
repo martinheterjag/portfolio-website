@@ -296,6 +296,24 @@ module.exports = [
 					it's very abstract and nothing like any construction site in the real world.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhjtourney2.zip">Download map</a>`,
 			},
+			{
+				sectionHeader: "mhjtourney3",
+				sectionHeaderImageName: "mhjtourney3",
+				sectionDetails: `This map is also called "Temple of acid" and is available as a
+					<a class='text-custom-blue',
+					href="https://steamcommunity.com/sharedfiles/filedetails/?id=803438741">
+					workshop item for Quake Live on Steam</a>. This map is made for 1v1 or small team games or free for all.
+					The theme of the map is an old ancient temple that have been used for dumping green, not very healthy goo.
+					To play it for quake live, use the workshop item on steam, for quake 3 arena use the download link below.<br><br>
+					<a class='text-custom-blue' download href="/assets/quake-maps/mhjtourney3_q3a.zip">Download map</a>`,
+			},
+			{
+				sectionHeader: "mhj-space1",
+				sectionHeaderImageName: "mhj-space1",
+				sectionDetails: `Ever played a space map in pink fog? now you have the chance! This
+					map was made for FFA or other casual game modes. It is gimicky as a space map should be and fun to play.<br><br>
+					<a class='text-custom-blue' download href="/assets/quake-maps/mhj-space1.zip">Download map</a>`,
+			},
 		],
 	},
 	// {
