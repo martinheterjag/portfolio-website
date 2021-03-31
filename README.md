@@ -27,7 +27,7 @@ npm install
 # run the build and server locally
 npm start
 
-View the site at http://localhost:8080/
+View the site at http://localhost:3000/
 ```
 
 ## Previewing the production build
