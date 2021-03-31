@@ -273,7 +273,7 @@ module.exports = [
 		role: [
 			"",
 		],
-		tech: ["GtkRadiant", "GNU Gimp 2"],
+		tech: ["GtkRadiant", "GNU Gimp 2", "Q3map2", "Q3 Build"],
 		about: [
 			`A collection of maps I've made for the game Quake 3 Arena. It's possible to play the maps on Quake Live as well.
 			 I've always been into making content for games, ever since i was a kid. Feel free to download and play my maps!`,
