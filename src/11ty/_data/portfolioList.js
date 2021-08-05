@@ -207,8 +207,8 @@ module.exports = [
 			{
 				sectionHeader: "Gramophony",
 				sectionHeaderImageName: "Gramophony",
-				sectionDetails: `As the name might imply, Gramophony is a lofi style effect. The effect is inspired by
-					the sound fo the band Boards of Canada who utilises vibrato compression and filtering to get a lofi
+				sectionDetails: `As the name might imply, Gramophony is a Lo-Fi style effect. The effect is inspired by
+					the sound fo the band Boards of Canada who utilises vibrato compression and filtering to get a Lo-Fi
 					sound on their tracks. The gramophony VST is combining mild distortion, chorus/vibrato and band pass
 					filtering. The goal is not to sound as an old gramphone player, but to sound cool, slightly out of tune
 					and a little bit more dirty.`,
