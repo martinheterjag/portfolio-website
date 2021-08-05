@@ -180,7 +180,8 @@ module.exports = [
 		],
 		tech: ["JUCE", "C++", "VST"],
 		about: [
-			`Since I first heard about JUCE I wanted to try it and learn how to make VST plugins, previously I have made VSTs using SynthEdit, but having a C++ framework means so much more flexibility.`,
+			`Since I first heard about JUCE I wanted to try it and learn how to make VST plugins, previously I have made VSTs using SynthEdit, but having a C++ framework means so much more flexibility.
+			<br><br>My VST plugins are available for download at <a class='text-custom-blue' href="https://kvraudio.com/developer/martinheterjag">kvraudio</a>.`,
 		],
 		moreDetails: [
 			{
