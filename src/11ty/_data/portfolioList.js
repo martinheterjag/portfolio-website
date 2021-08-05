@@ -191,8 +191,7 @@ module.exports = [
 					start with a sine wave or triangle and distort it to get a harsher sound. This VST is folding a waveform in
 					similar ways as serge or buchla modules but is not supposed to emulate them. The wave folder VST will
 					sound harsh and digital and can be used on smoother sounds to add texture or be used on more complex
-					sound sources and open the gates to the realms of heavy distortion and weird noise.
-					das`,
+					sound sources and open the gates to the realms of heavy distortion and weird noise.`,
 			},
 			{
 				sectionHeader: "",
