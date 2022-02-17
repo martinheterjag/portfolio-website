@@ -20,9 +20,8 @@ module.exports = [
 		],
 		about: [
 			`Synthesizers and music tech gear, I love it! To build, to play or to just dream about.
-			This is a collection of the music tech DIY projects I've been working with the past few years.
-			My lovely girlfriend Josefina Kennebjörk have been my woodworking partner for many of these projects and also
-			helped with soldering.`,
+			This is a collection of the music tech DIY projects that I've been working with the past few years.
+			My lovely girlfriend Josefina Kennebjörk have been my woodworking partner for many of these projects.`,
 		],
 		moreDetails: [
 			{
