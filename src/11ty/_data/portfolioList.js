@@ -127,9 +127,9 @@ module.exports = [
 			{
 				sectionHeader: "Low Pass Gate",
 				sectionHeaderImageName: "lpg",
-				sectionDetails: `A classic module, the Buchla 292. Later it was cloned by Peter Grenader and released as a part of on Ken Stone's
-					CGS project. I based it on the schematics found on Ken Stone's website but tweaked it a little bit and made a new PCB design in KiCad.
-					The faceplate is made in aluminium, ahnd drilled and hand painted`,
+				sectionDetails: `A classic module, the Buchla 292. Later it was cloned by Peter Grenader and released as a part of Ken Stone's
+					CGS project. I based it on the schematics found on Ken Stone's website, but I tweaked it a little bit and made a new PCB design in KiCad.
+					The faceplate is made in aluminium, hand drilled and hand painted`,
 			},
 			{
 				sectionHeader: "CEM3340 VCO",
