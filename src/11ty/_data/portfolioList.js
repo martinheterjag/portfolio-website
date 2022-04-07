@@ -211,6 +211,15 @@ module.exports = [
 					sound on their tracks. The gramophony VST is combining mild distortion, chorus/vibrato and band pass
 					filtering. The goal is not to sound as an old gramphone player, but to sound cool, slightly out of tune
 					and a little bit more dirty.`,
+			},
+			{
+				sectionHeader: "Easyverb",
+				sectionHeaderImageName: "Easyverb",
+				sectionDetails: `An easy to use reverb with only two knobs. When you crank the reverb into higher values
+					it goes into a very long shimmering reverb and with smaller values it is a tame room or hall reverb.
+
+					The effect is very versatile and it's easy to tweak, for the anyone who wants to quickly add a
+					reverb, find a good sound and make awesome music.`,
 			}
 		],
 	},
