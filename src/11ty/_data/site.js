@@ -7,5 +7,5 @@ module.exports = {
     youtube: "https://youtube.com/martinheterjag",
     soundcloud: "https://soundcloud.com/martinheterjag",
 	github: "https://github.com/martinheterjag",
-	email: "martinheterjag@msn.com"
+	email: "martin@martinheterjag.com"
 };
