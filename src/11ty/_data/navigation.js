@@ -9,4 +9,9 @@ module.exports = [
 		url: "/about",
 		title: "About",
 	},
+	{
+		id: "donate",
+		url: "/donate",
+		title: "Donate",
+	},
 ];
