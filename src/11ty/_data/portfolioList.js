@@ -3,7 +3,7 @@ module.exports = [
 		id: "synth-mhj-01",
 		title: "Synth MHJ-01",
 		description:
-			"A polyphonic software synthesizer",
+			"A polyphonic software synthesizer (WIP)",
 		imagePath: "/assets/images/synth-mhj-01",
 		heroName: "hero",
 		url: "/project/synth-mhj-01",
@@ -13,7 +13,7 @@ module.exports = [
 		],
 		tech: ["C++", "JUCE"],
 		about: [
-			`A polyphonic software synth I'm wotking on, I will soon update with more info!
+			`A polyphonic software synth I'm working on, I will soon update with more info!
 			You can follow the progress at the <a class='text-custom-blue'
 			href=https://github.com/martinheterjag/synth-mhj-01>github repository</a>.
 			The synth will be both a stand alone program and a plugin.`,
