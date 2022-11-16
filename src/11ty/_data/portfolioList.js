@@ -1,5 +1,36 @@
 module.exports = [
 	{
+		id: "synth-mhj-01",
+		title: "Synth MHJ-01",
+		description:
+			"A polyphonic software synthesizer",
+		imagePath: "/assets/images/synth-mhj-01",
+		heroName: "hero",
+		url: "/project/synth-mhj-01",
+		bgColor: "bg-pink-200",
+		role: [
+			"",
+		],
+		tech: ["C++", "JUCE"],
+		about: [
+			`A polyphonic software synth I'm wotking on, I will soon update with more info!
+			You can follow the progress at the <a class='text-custom-blue'
+			href=https://github.com/martinheterjag/synth-mhj-01>github repository</a>.
+			The synth will be both a stand alone program and a plugin.`,
+		],
+		moreDetails: [
+			{
+				sectionHeader: "Current implementation",
+				sectionDetails: `The signal chain is 2xVCO with continous wave shaping and a Noise
+				                source into VCF into VCA. There are envelopes and LFOs for modulation
+				                and I plan to add a step sequencer and a stepped/smooth random modulator.
+				                I will also add effects and look into how to make the signal chain
+				                sound better.<br>The project a work in progress at the moment and the
+				                design could change a lot before it's done.`,
+			},
+		],
+	},
+	{
 		id: "hardware-synths",
 		title: "Hardware synthesizers",
 		description:
