@@ -21,17 +21,14 @@ function imageFile(dir, name) {
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 	eleventyConfig.addPassthroughCopy({ "src/assets/quake-maps": "/assets/quake-maps" });
-	eleventyConfig.addPassthroughCopy({
-		"node_modules/@fontsource-variable/mulish/files/mulish-latin-wght-normal.woff2":
-			"/assets/fonts/mulish.woff2",
-	});
+	eleventyConfig.addPassthroughCopy({ "src/assets/fonts/*.woff2": "/assets/fonts" });
 	eleventyConfig.addWatchTarget("src/_includes/css/");
 
 	eleventyConfig.addFilter("imageFile", imageFile);
 	eleventyConfig.addGlobalData("year", () => new Date().getFullYear());
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		formats: ["avif", "webp", "auto"],
+		formats: ["avif", "webp", "jpeg"],
 		widths: [480, 960, 1600],
 		urlPath: "/assets/img/",
 		outputDir: "dist/assets/img/",

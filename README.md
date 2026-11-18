@@ -9,7 +9,7 @@ Originally based on https://github.com/vktrwlt/vktr-portfolio-v5 by Victor Tsang
 - [Eleventy 3](https://www.11ty.dev/) with Nunjucks templates
 - Plain CSS (no build step), inlined into each page
 - [Eleventy Image](https://www.11ty.dev/docs/plugins/image/) for responsive AVIF/WebP images
-- [Mulish](https://fontsource.org/fonts/mulish) variable font, self-hosted
+- [Mulish](https://fonts.google.com/specimen/Mulish) variable font, self-hosted in `src/assets/fonts/` (SIL Open Font License)
 
 ## Project layout
 

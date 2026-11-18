@@ -13,7 +13,7 @@ eleventyComputed:
 	<header class="project__header">
 		<h1>{{ project.title }}</h1>
 		<p class="lead">{{ project.description | safe }}</p>
-		{%- set hero = project.imagePath | imageFile(project.heroName) %}
+		{%- set hero = project.imagePath | imageFile("hero") %}
 		{%- if hero %}
 		<img class="project__hero" src="{{ hero }}" alt="" loading="eager" fetchpriority="high">
 		{%- endif %}

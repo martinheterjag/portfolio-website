@@ -3,7 +3,7 @@
 	font-style: normal;
 	font-weight: 200 1000;
 	font-display: swap;
-	src: url("/assets/fonts/mulish.woff2") format("woff2");
+	src: url("/assets/fonts/mulish-latin-wght-5.3.0.woff2") format("woff2");
 }
 
 :root {

@@ -5,12 +5,8 @@ module.exports = [
 		description:
 			"A polyphonic software synthesizer (WIP)",
 		imagePath: "/assets/images/synth-mhj-01",
-		heroName: "hero",
 		url: "/project/synth-mhj-01",
 		bgColor: "bg-pink-200",
-		role: [
-			"",
-		],
 		tech: ["C++", "JUCE"],
 		about: [
 			`A polyphonic software synth I'm working on, I will soon update with more info!
@@ -36,12 +32,8 @@ module.exports = [
 		description:
 			"Hardware synthesizers, sequencers and effects",
 		imagePath: "/assets/images/hardware-synths",
-		heroName: "hero",
 		url: "/project/hardware-synths",
 		bgColor: "bg-green-200",
-		role: [
-			"Electronics engineering, I've been designing and building these projects.",
-		],
 		tech: [
 			"Electronics",
 			"Circuit design",
@@ -116,12 +108,8 @@ module.exports = [
 		description:
 			"Hardware synthesizers, in Eurorack format.",
 		imagePath: "/assets/images/eurorack",
-		heroName: "hero",
 		url: "/project/eurorack",
 		bgColor: "bg-pink-200",
-		role: [
-			"Electronics engineering, I've been designing and building these projects.",
-		],
 		tech: [
 			"Electronics",
 			"Circuit design",
@@ -202,13 +190,9 @@ module.exports = [
 		description:
 			"A collection of projects made with the JUCE framework",
 		imagePath: "/assets/images/juce-projects",
-		heroName: "hero",
 		url: "/project/juce-projects",
 		github: "https://github.com/martinheterjag/JUCE-Projects",
 		bgColor: "bg-blue-200",
-		role: [
-			"Designed and developed VST plugins using the JUCE framework",
-		],
 		tech: ["JUCE", "C++", "VST"],
 		about: [
 			`Since I first heard about JUCE I wanted to try it and learn how to make VST plugins, previously I have made VSTs using SynthEdit, but having a C++ framework means so much more flexibility.
@@ -261,13 +245,9 @@ module.exports = [
 		description:
 			"A CHIP-8 emulator written in python",
 		imagePath: "/assets/images/kanzchip-8",
-		heroName: "hero",
 		url: "/project/kanzchip-8",
 		github: "https://github.com/martinheterjag/kanzchip-8",
 		bgColor: "bg-purple-200",
-		role: [
-			"",
-		],
 		tech: ["Python", "pygame"],
 		about: [
 			`kanzchip-8 is a python based CHIP-8 emulator I made together with my friend Chris Stewart, <a class='text-custom-blue' href="https://github.com/cstewart90">cstewart90 on github</a>.`,
@@ -308,12 +288,8 @@ module.exports = [
 		description:
 			"Maps I've made for Quake 3 Arena / Quake Live",
 		imagePath: "/assets/images/quake-maps",
-		heroName: "hero",
 		url: "/project/quake-maps",
 		bgColor: "bg-orange-200",
-		role: [
-			"",
-		],
 		tech: ["GtkRadiant", "GNU Gimp 2", "Q3map2", "Q3 Build"],
 		about: [
 			`A collection of maps I've made for the game Quake 3 Arena. It's possible to play the maps on Quake Live as well.
@@ -363,12 +339,8 @@ module.exports = [
 	// 	description:
 	// 		"This is a template for a project",
 	// 	imagePath: "/assets/images/template",
-	// 	heroName: "hero",
 	// 	url: "/project/template",
 	// 	bgColor: "bg-blue-200",
-	// 	role: [
-	// 		"",
-	// 	],
 	// 	tech: ["Things", "Stuff"],
 	// 	about: [
 	// 		`A short description of the project`,
