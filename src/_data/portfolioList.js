@@ -17,7 +17,7 @@ module.exports = [
 		moreDetails: [
 			{
 				sectionHeader: "Current implementation",
-				sectionDetails: `The signal chain is 2xVCO with continous wave shaping and a Noise
+				sectionDetails: `The signal chain is 2xVCO with continuous wave shaping and a Noise
 				                source into VCF into VCA. There are envelopes and LFOs for modulation
 				                and I plan to add a step sequencer and a stepped/smooth random modulator.
 				                I will also add effects and look into how to make the signal chain
@@ -72,10 +72,10 @@ module.exports = [
 			{
 				sectionHeader: "Skarp Plingeling",
 				sectionHeaderImageName: "pling-vco",
-				sectionDetails: `Skarp Plingeling was a competence development project I did together with a collegue, Linus Fredriksson, at Skarp
-				(Note, when this project was made the company <i>Skarp</i> was named <i>Drakryggen</i>. The name change was done in march 2021). We made a VCA module, a VCO and started to design a state veriable filter.
-				Unforunately (very very sad) Linus passed away durign the project due to sudden health issues, and it was never finished.
-				Both the VCA and VCO was based of the LM13700 IC (a dual transconductance amplifier). The VCA and VCO was was assemblied but no enclosure was built.
+				sectionDetails: `Skarp Plingeling was a competence development project I did together with a colleague, Linus Fredriksson, at Skarp
+				(Note, when this project was made the company <i>Skarp</i> was named <i>Drakryggen</i>. The name change was done in march 2021). We made a VCA module, a VCO and started to design a state variable filter.
+				Unfortunately (very very sad) Linus passed away during the project due to sudden health issues, and it was never finished.
+				Both the VCA and VCO was based of the LM13700 IC (a dual transconductance amplifier). The VCA and VCO was assembled but no enclosure was built.
 				Simulation was done in LTspice, schematics and PCB design in Eagle and KiCad`,
 			},
 			{
@@ -86,8 +86,8 @@ module.exports = [
 			{
 				sectionHeader: "\"Gula Guran\", the yellow electric guitar",
 				sectionHeaderImageName: "gula-guran",
-				sectionDetails: `I assemblied and painted this guitar from a harley benton kit. I don't know what makes a good guitar, but it works and it's
-					fun to play and inspires me. The project was fun and i would reccomend the kit, it will not make you a vintage guitar but it's the best
+				sectionDetails: `I assembled and painted this guitar from a harley benton kit. I don't know what makes a good guitar, but it works and it's
+					fun to play and inspires me. The project was fun and i would recommend the kit, it will not make you a vintage guitar but it's the best
 					electric guitar i own! (I only have one more and it's really bad.)`,
 			},
 			{
@@ -96,7 +96,7 @@ module.exports = [
 				sectionDetails: `The first synth DIY project i made, a 10 step CV Gate sequencer based on the Baby 10 schematic from Captain’s Analog.
 					It's based on a 4017 CMOS IC and i built it with one row of pots and one row of on-off-on switches to get one CV output and
 					two different gate outputs that can never gate at the same step. One trick i use often is to use gate 2 output to trigger a reset,
-					this way I can control the sequence length from 1 to 10 steps. The IC have a pin for cartry output, this pin is high on step 1 through 5
+					this way I can control the sequence length from 1 to 10 steps. The IC have a pin for carry output, this pin is high on step 1 through 5
 					and low on step 6 through 10, i have made this pin available as an output as well for some extra gate action, I use it about once every
 					4 years, so you can probably live without it if you want to build something similar.`,
 			},
@@ -153,16 +153,16 @@ module.exports = [
 				sectionHeader: "CEM3340 VCO",
 				sectionHeaderImageName: "cem3340",
 				sectionDetails: `Dual VCO based on the classic CEM3340 IC used in vintage synths like Roland SH-101, Moog Memorymoog,
-					Sequental Circuits Prophet 5 and many more. Each VCO has saw and triangle outputs and 1V/oct and frequency CV inputs.
+					Sequential Circuits Prophet 5 and many more. Each VCO has saw and triangle outputs and 1V/oct and frequency CV inputs.
 					There is a switch for turning on soft sync or hard sync between the two oscillators. If you feed the VCO with a negative voltage
 					it is possible to use it as an LFO. The circuit and PCB was designed in KiCad, the faceplate is painted aluminium.`,
 			},
 			{
 				sectionHeader: "Drum Machine",
 				sectionHeaderImageName: "drum-machine",
-				sectionDetails: `A digital drum module with analog interface, based on Raspbery Pi Zero. You can find the project on this
+				sectionDetails: `A digital drum module with analog interface, based on Raspberry Pi Zero. You can find the project on this
 					<a class='text-custom-blue' href=https://github.com/martinheterjag/eurorack-drum-machine>github repository</a>. The circuit is
-					soldered on a perf board with headers to mount the Raspbery Pi Zero. There are interfaces tp trigger a bd, sn, cp, ch, oh
+					soldered on a perf board with headers to mount the Raspberry Pi Zero. There are interfaces to trigger a bd, sn, cp, ch, oh
 					and cy drum sounds. The actual sounds can be replaced by logging in to the Raspberry Pi Zero via SSH and replace the files.
 					I am using the JUCE C++ framework to trigger the sounds, and i cross compile the project using a gcc tool-chain for raspberry pi.
 					For some reason i am having latency issues when the sounds are played, I've tried with different programming languages and
@@ -212,12 +212,12 @@ module.exports = [
 			{
 				sectionHeader: "",
 				sectionHeaderImageName: "Folder1",
-				sectionDetails: `High treshold setting, waveform is not changed`,
+				sectionDetails: `High threshold setting, waveform is not changed`,
 			},
 			{
 				sectionHeader: "",
 				sectionHeaderImageName: "Folder2",
-				sectionDetails: `Low treshold setting, the wave is folding.`,
+				sectionDetails: `Low threshold setting, the wave is folding.`,
 			},
 			{
 				sectionHeader: "Gramophony",
@@ -225,7 +225,7 @@ module.exports = [
 				sectionDetails: `As the name might imply, Gramophony is a Lo-Fi style effect. The effect is inspired by
 					the sound of the band Boards of Canada who utilises vibrato, compression and filtering to get a Lo-Fi
 					sound on their tracks. The gramophony VST is combining mild distortion, chorus/vibrato and band pass
-					filtering. The goal is not to sound as an old gramphone player, but to sound cool, slightly out of tune
+					filtering. The goal is not to sound as an old gramophone player, but to sound cool, slightly out of tune
 					and a little bit more dirty.`,
 			},
 			{
@@ -257,7 +257,7 @@ module.exports = [
 				sectionHeader: "What is CHIP-8?",
 				sectionHeaderImageName: "",
 				sectionDetails: `Snipped from wikipedia:
-					"CHIP-8 is an interpreted prgramming language, developed by Joseph Weisbecker. It was initially used
+					"CHIP-8 is an interpreted programming language, developed by Joseph Weisbecker. It was initially used
 					on the COSMAC VIP and Telmac 1800 8-bit microcomputers in the mid-1970s. CHIP-8 programs are run on
 					a CHIP-8 virtual machine. It was made to allow video games to be more easily programmed for
 					these computers." <br><br>CHIP-8 has 35 instructions that are all two bytes long. We have
@@ -300,7 +300,7 @@ module.exports = [
 				sectionHeader: "mhj-t1",
 				sectionHeaderImageName: "mhjtourney1",
 				sectionDetails: `The first quake 3 map I made back in 2012. It is made for Duel, small team games or FFA. It's set in some
-					kind of abstact temple scene.<br><br>
+					kind of abstract temple scene.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhj-t1.zip">Download map</a>`,
 			},
 			{
@@ -308,7 +308,7 @@ module.exports = [
 				sectionHeaderImageName: "mhjtourney2",
 				sectionDetails: `This map was made for the <a class='text-custom-blue',
 					href="https://www.moddb.com/groups/maverick-servers-quake-3-mapping-competition">
-					Maverics Servers Quake 3 Mapping Competition 2012</a>. This map was placed on 4th place.
+					Maverick Servers Quake 3 Mapping Competition 2012</a>. This map was placed on 4th place.
 					The theme of the map is a rainy construction site or factory of some sort. Like any proper quake map,
 					it's very abstract and nothing like any construction site in the real world.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhjtourney2.zip">Download map</a>`,
@@ -328,7 +328,7 @@ module.exports = [
 				sectionHeader: "mhj-space1",
 				sectionHeaderImageName: "mhj-space1",
 				sectionDetails: `Ever played a space map in pink fog? Now you have the chance! This
-					map was made for FFA or other casual game modes. It's gimicky as a space map should be and fun to play.<br><br>
+					map was made for FFA or other casual game modes. It's gimmicky as a space map should be and fun to play.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhj-space1.zip">Download map</a>`,
 			},
 		],
