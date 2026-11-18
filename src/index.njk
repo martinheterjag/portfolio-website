@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+<section class="intro">
+	<h1>Hello! My name is Martin!<span>I'm a software engineer who makes analog synthesizers!</span></h1>
+</section>
+
+<section>
+	<h2 class="eyebrow">Featured Projects</h2>
+	<ul class="cards">
+		{%- for project in portfolioList %}
+		<li>
+			<a class="card card--{{ project.bgColor | replace('bg-', '') }}" href="{{ project.url }}/">
+				<div class="card__body">
+					<h3>{{ project.title }}</h3>
+					<p>{{ project.description | safe }}</p>
+					<span class="card__action">View Project</span>
+				</div>
+				{%- set thumb = project.imagePath | imageFile("thumbnail") %}
+				{%- if thumb %}
+				<img src="{{ thumb }}" alt="" sizes="(min-width: 768px) 440px, 100vw">
+				{%- endif %}
+			</a>
+		</li>
+		{%- endfor %}
+	</ul>
+</section>

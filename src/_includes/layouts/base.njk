@@ -1,0 +1,41 @@
+{%- set slug = project.id if project else page.fileSlug -%}
+{%- set meta = siteAttributes[slug] -%}
+{%- set pageTitle = meta.metaTitle if meta else ((title + " | Martinheterjag") if title else site.metaTitle) -%}
+{%- set pageDescription = meta.metaDescription if meta else (description or site.metaDescription) -%}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ pageTitle }}</title>
+	<meta name="description" content="{{ pageDescription }}">
+	<meta name="author" content="{{ site.author }}">
+	<meta name="theme-color" content="#0856c1">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ pageTitle }}">
+	<meta property="og:description" content="{{ pageDescription }}">
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="icon" href="/favicon.ico" sizes="32x32">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="preload" href="/assets/fonts/mulish.woff2" as="font" type="font/woff2" crossorigin>
+	<style>{% include "css/main.css" %}</style>
+</head>
+<body>
+	{% include "partials/icons.svg" %}
+	<a class="skip-link" href="#main">Skip to content</a>
+	{% include "partials/header.njk" %}
+	<main id="main" class="container">
+		{{ content | safe }}
+	</main>
+	{% include "partials/footer.njk" %}
+	<script>
+		const toggle = document.querySelector(".menu-toggle");
+		toggle.addEventListener("click", () => {
+			const open = toggle.getAttribute("aria-expanded") !== "true";
+			toggle.setAttribute("aria-expanded", open);
+		});
+	</script>
+</body>
+</html>

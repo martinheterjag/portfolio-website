@@ -1,0 +1,15 @@
+<header class="site-header">
+	<div class="site-header__inner">
+		<a class="site-header__brand" href="/">Martinheterjag</a>
+		<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+			<svg width="24" height="24" aria-hidden="true"><use href="#icon-hamburger"></use></svg>
+		</button>
+		<nav id="site-nav" class="site-nav" aria-label="Main">
+			<ul>
+				{%- for item in navigation %}
+				<li><a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+				{%- endfor %}
+			</ul>
+		</nav>
+	</div>
+</header>
