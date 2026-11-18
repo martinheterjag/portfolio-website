@@ -11,7 +11,7 @@ module.exports = [
 		about: [
 			`A polyphonic software synth I'm working on, I will soon update with more info!
 			You can follow the progress at the <a class='text-custom-blue'
-			href=https://github.com/martinheterjag/synth-mhj-01>github repository</a>.
+			href=https://github.com/martinheterjag/synth-mhj-01>GitHub repository</a>.
 			The synth will be both a stand alone program and a plugin.`,
 		],
 		moreDetails: [
@@ -21,7 +21,7 @@ module.exports = [
 				                source into VCF into VCA. There are envelopes and LFOs for modulation
 				                and I plan to add a step sequencer and a stepped/smooth random modulator.
 				                I will also add effects and look into how to make the signal chain
-				                sound better.<br>The project a work in progress at the moment and the
+				                sound better.<br>The project is a work in progress at the moment and the
 				                design could change a lot before it's done.`,
 			},
 		],
@@ -44,13 +44,13 @@ module.exports = [
 		about: [
 			`Synthesizers and music tech gear, I love it! To build, to play or to just dream about.
 			This is a collection of the music tech DIY projects that I've been working with the past few years.
-			My lovely girlfriend Josefina Kennebjörk have been my woodworking partner for many of these projects.`,
+			My lovely girlfriend Josefina Kennebjörk has been my woodworking partner for many of these projects.`,
 		],
 		moreDetails: [
 			{
 				sectionHeader: "CV Gate Keyboard",
 				sectionHeaderImageName: "red-keyboard",
-				sectionDetails: `It's made out of wood, it's red and it's beautiful. It contains a +- 12V PSU that i soldered to a perf board and a
+				sectionDetails: `It's made out of wood, it's red and it's beautiful. It contains a +- 12V PSU that I soldered to a perf board and a
 					keyboard controller circuit by Ray Wilson musicfromouterspace.com. I bought the PCB from their website and some rare parts.
 					It has outputs for CV, CV with portamento controlled by a knob, gate and trigger.`,
 			},
@@ -75,8 +75,8 @@ module.exports = [
 				sectionDetails: `Skarp Plingeling was a competence development project I did together with a colleague, Linus Fredriksson, at Skarp
 				(Note, when this project was made the company <i>Skarp</i> was named <i>Drakryggen</i>. The name change was done in march 2021). We made a VCA module, a VCO and started to design a state variable filter.
 				Unfortunately (very very sad) Linus passed away during the project due to sudden health issues, and it was never finished.
-				Both the VCA and VCO was based of the LM13700 IC (a dual transconductance amplifier). The VCA and VCO was assembled but no enclosure was built.
-				Simulation was done in LTspice, schematics and PCB design in Eagle and KiCad`,
+				Both the VCA and VCO were based on the LM13700 IC (a dual transconductance amplifier). The VCA and VCO were assembled but no enclosure was built.
+				Simulation was done in LTspice, schematics and PCB design in Eagle and KiCad.`,
 			},
 			{
 				sectionHeader: "",
@@ -86,18 +86,18 @@ module.exports = [
 			{
 				sectionHeader: "\"Gula Guran\", the yellow electric guitar",
 				sectionHeaderImageName: "gula-guran",
-				sectionDetails: `I assembled and painted this guitar from a harley benton kit. I don't know what makes a good guitar, but it works and it's
-					fun to play and inspires me. The project was fun and i would recommend the kit, it will not make you a vintage guitar but it's the best
-					electric guitar i own! (I only have one more and it's really bad.)`,
+				sectionDetails: `I assembled and painted this guitar from a Harley Benton kit. I don't know what makes a good guitar, but it works and it's
+					fun to play and inspires me. The project was fun and I would recommend the kit, it will not make you a vintage guitar but it's the best
+					electric guitar I own! (I only have one more and it's really bad.)`,
 			},
 			{
 				sectionHeader: "Baby 10 Sequencer",
 				sectionHeaderImageName: "baby-10",
-				sectionDetails: `The first synth DIY project i made, a 10 step CV Gate sequencer based on the Baby 10 schematic from Captain’s Analog.
-					It's based on a 4017 CMOS IC and i built it with one row of pots and one row of on-off-on switches to get one CV output and
-					two different gate outputs that can never gate at the same step. One trick i use often is to use gate 2 output to trigger a reset,
-					this way I can control the sequence length from 1 to 10 steps. The IC have a pin for carry output, this pin is high on step 1 through 5
-					and low on step 6 through 10, i have made this pin available as an output as well for some extra gate action, I use it about once every
+				sectionDetails: `The first synth DIY project I made, a 10 step CV Gate sequencer based on the Baby 10 schematic from Captain’s Analog.
+					It's based on a 4017 CMOS IC and I built it with one row of pots and one row of on-off-on switches to get one CV output and
+					two different gate outputs that can never gate at the same step. One trick I use often is to use gate 2 output to trigger a reset,
+					this way I can control the sequence length from 1 to 10 steps. The IC has a pin for carry output, this pin is high on step 1 through 5
+					and low on step 6 through 10, I have made this pin available as an output as well for some extra gate action, I use it about once every
 					4 years, so you can probably live without it if you want to build something similar.`,
 			},
 		]
@@ -125,7 +125,7 @@ module.exports = [
 				sectionHeader: "Wooden case and PSU",
 				sectionHeaderImageName: "case",
 				sectionDetails: `The case is made in pinewood and painted, four 84 HP Eurorack rails are mounted in the case, which makes it a 6U 84hp rack.
-					The PSU PCB have a +- 12V rails as well as a 5V rail for digital modules. The PSU schematic and PCB is designed in KiCad.`,
+					The PSU PCB has +- 12V rails as well as a 5V rail for digital modules. The PSU schematic and PCB are designed in KiCad.`,
 			},
 			{
 				sectionHeader: "",
@@ -147,7 +147,7 @@ module.exports = [
 				sectionHeaderImageName: "lpg",
 				sectionDetails: `A classic module, the Buchla 292. Later it was cloned by Peter Grenader and released as a part of Ken Stone's
 					CGS project. I based it on the schematics found on Ken Stone's website, but I tweaked it a little bit and made a new PCB design in KiCad.
-					The faceplate is made in aluminium, hand drilled and hand painted`,
+					The faceplate is made in aluminium, hand drilled and hand painted.`,
 			},
 			{
 				sectionHeader: "CEM3340 VCO",
@@ -155,27 +155,27 @@ module.exports = [
 				sectionDetails: `Dual VCO based on the classic CEM3340 IC used in vintage synths like Roland SH-101, Moog Memorymoog,
 					Sequential Circuits Prophet 5 and many more. Each VCO has saw and triangle outputs and 1V/oct and frequency CV inputs.
 					There is a switch for turning on soft sync or hard sync between the two oscillators. If you feed the VCO with a negative voltage
-					it is possible to use it as an LFO. The circuit and PCB was designed in KiCad, the faceplate is painted aluminium.`,
+					it is possible to use it as an LFO. The circuit and PCB were designed in KiCad, the faceplate is painted aluminium.`,
 			},
 			{
 				sectionHeader: "Drum Machine",
 				sectionHeaderImageName: "drum-machine",
 				sectionDetails: `A digital drum module with analog interface, based on Raspberry Pi Zero. You can find the project on this
-					<a class='text-custom-blue' href=https://github.com/martinheterjag/eurorack-drum-machine>github repository</a>. The circuit is
+					<a class='text-custom-blue' href=https://github.com/martinheterjag/eurorack-drum-machine>GitHub repository</a>. The circuit is
 					soldered on a perf board with headers to mount the Raspberry Pi Zero. There are interfaces to trigger a bd, sn, cp, ch, oh
 					and cy drum sounds. The actual sounds can be replaced by logging in to the Raspberry Pi Zero via SSH and replace the files.
-					I am using the JUCE C++ framework to trigger the sounds, and i cross compile the project using a gcc tool-chain for raspberry pi.
-					For some reason i am having latency issues when the sounds are played, I've tried with different programming languages and
-					libraries and i found JUCE having the lowest latency, but it's still pretty bad. It is on my to-do list to fix this issue.<br><br>
-					Also, i drew R2D2 on the faceplate, because robots are cool!`,
+					I am using the JUCE C++ framework to trigger the sounds, and I cross compile the project using a gcc tool-chain for raspberry pi.
+					For some reason I am having latency issues when the sounds are played, I've tried with different programming languages and
+					libraries and I found JUCE having the lowest latency, but it's still pretty bad. It is on my to-do list to fix this issue.<br><br>
+					Also, I drew R2D2 on the faceplate, because robots are cool!`,
 			},
 			{
 				sectionHeader: "Mixer modules",
 				sectionHeaderImageName: "mixer",
 				sectionDetails: `Two different mixer modules, one with knob for each input and input 1 is normalized to 12V to act as an offset knob if needed.
-					The other one have a smaller footprint and a higher gain to boost signals if needed. Both mixers are based on the same circuit, an opamp
-					coupled as a summing inverting amplifier followed by an inverter. The larger mixer also have an output before the second stage to get an
-					inverted output`,
+					The other one has a smaller footprint and a higher gain to boost signals if needed. Both mixers are based on the same circuit, an opamp
+					coupled as a summing inverting amplifier followed by an inverter. The larger mixer also has an output before the second stage to get an
+					inverted output.`,
 			},
 			{
 				sectionHeader: "",
@@ -195,7 +195,7 @@ module.exports = [
 		bgColor: "bg-blue-200",
 		tech: ["JUCE", "C++", "VST"],
 		about: [
-			`Since I first heard about JUCE I wanted to try it and learn how to make VST plugins, previously I have made VSTs using SynthEdit, but having a C++ framework means so much more flexibility.
+			`Since I first heard about JUCE I wanted to try it and learn how to make VST plugins. Previously I have made VSTs using SynthEdit, but having a C++ framework means so much more flexibility.
 			<br><br>My VST plugins are available for download at <a class='text-custom-blue' href="https://kvraudio.com/developer/martinheterjag">kvraudio</a>.`,
 		],
 		moreDetails: [
@@ -212,7 +212,7 @@ module.exports = [
 			{
 				sectionHeader: "",
 				sectionHeaderImageName: "Folder1",
-				sectionDetails: `High threshold setting, waveform is not changed`,
+				sectionDetails: `High threshold setting, waveform is not changed.`,
 			},
 			{
 				sectionHeader: "",
@@ -225,7 +225,7 @@ module.exports = [
 				sectionDetails: `As the name might imply, Gramophony is a Lo-Fi style effect. The effect is inspired by
 					the sound of the band Boards of Canada who utilises vibrato, compression and filtering to get a Lo-Fi
 					sound on their tracks. The gramophony VST is combining mild distortion, chorus/vibrato and band pass
-					filtering. The goal is not to sound as an old gramophone player, but to sound cool, slightly out of tune
+					filtering. The goal is not to sound like an old gramophone player, but to sound cool, slightly out of tune
 					and a little bit more dirty.`,
 			},
 			{
@@ -234,7 +234,7 @@ module.exports = [
 				sectionDetails: `An easy to use reverb with only two knobs. When you crank the reverb into higher values
 					it goes into a very long shimmering reverb and with smaller values it is a tame room or hall reverb.
 
-					The effect is very versatile and it's easy to tweak, for the anyone who wants to quickly add a
+					The effect is very versatile and it's easy to tweak, for anyone who wants to quickly add a
 					reverb, find a good sound and make awesome music.`,
 			}
 		],
@@ -250,13 +250,13 @@ module.exports = [
 		bgColor: "bg-purple-200",
 		tech: ["Python", "pygame"],
 		about: [
-			`kanzchip-8 is a python based CHIP-8 emulator I made together with my friend Chris Stewart, <a class='text-custom-blue' href="https://github.com/cstewart90">cstewart90 on github</a>.`,
+			`kanzchip-8 is a python based CHIP-8 emulator I made together with my friend Chris Stewart, <a class='text-custom-blue' href="https://github.com/cstewart90">cstewart90 on GitHub</a>.`,
 		],
 		moreDetails: [
 			{
 				sectionHeader: "What is CHIP-8?",
 				sectionHeaderImageName: "",
-				sectionDetails: `Snipped from wikipedia:
+				sectionDetails: `Snipped from Wikipedia:
 					"CHIP-8 is an interpreted programming language, developed by Joseph Weisbecker. It was initially used
 					on the COSMAC VIP and Telmac 1800 8-bit microcomputers in the mid-1970s. CHIP-8 programs are run on
 					a CHIP-8 virtual machine. It was made to allow video games to be more easily programmed for
@@ -293,13 +293,13 @@ module.exports = [
 		tech: ["GtkRadiant", "GNU Gimp 2", "Q3map2", "Q3 Build"],
 		about: [
 			`A collection of maps I've made for the game Quake 3 Arena. It's possible to play the maps on Quake Live as well.
-			 I've always been into making content for games, ever since i was a kid. Feel free to download and play my maps!`,
+			 I've always been into making content for games, ever since I was a kid. Feel free to download and play my maps!`,
 		],
 		moreDetails: [
 			{
 				sectionHeader: "mhj-t1",
 				sectionHeaderImageName: "mhjtourney1",
-				sectionDetails: `The first quake 3 map I made back in 2012. It is made for Duel, small team games or FFA. It's set in some
+				sectionDetails: `The first Quake 3 map I made back in 2012. It is made for Duel, small team games or FFA. It's set in some
 					kind of abstract temple scene.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhj-t1.zip">Download map</a>`,
 			},
@@ -308,8 +308,8 @@ module.exports = [
 				sectionHeaderImageName: "mhjtourney2",
 				sectionDetails: `This map was made for the <a class='text-custom-blue',
 					href="https://www.moddb.com/groups/maverick-servers-quake-3-mapping-competition">
-					Maverick Servers Quake 3 Mapping Competition 2012</a>. This map was placed on 4th place.
-					The theme of the map is a rainy construction site or factory of some sort. Like any proper quake map,
+					Maverick Servers Quake 3 Mapping Competition 2012</a>. This map came in 4th place.
+					The theme of the map is a rainy construction site or factory of some sort. Like any proper Quake map,
 					it's very abstract and nothing like any construction site in the real world.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhjtourney2.zip">Download map</a>`,
 			},
@@ -320,8 +320,8 @@ module.exports = [
 					<a class='text-custom-blue',
 					href="https://steamcommunity.com/sharedfiles/filedetails/?id=803438741">
 					workshop item for Quake Live on Steam</a>. This map is made for 1v1 or small team games or free for all.
-					The theme of the map is an old ancient temple that have been used for dumping green, not very healthy goo.
-					To play it for quake live, use the workshop item on steam, for quake 3 arena use the download link below.<br><br>
+					The theme of the map is an old ancient temple that has been used for dumping green, not very healthy goo.
+					To play it in Quake Live, use the workshop item on steam, for Quake 3 Arena use the download link below.<br><br>
 					<a class='text-custom-blue' download href="/assets/quake-maps/mhjtourney3_q3a.zip">Download map</a>`,
 			},
 			{
