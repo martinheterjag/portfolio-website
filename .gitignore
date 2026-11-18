@@ -3,7 +3,6 @@
 
 # build artifacts
 dist/
-src/11ty/_data/assets.json
 
 # secrets
 .env
@@ -16,7 +15,7 @@ src/11ty/_data/assets.json
 # vscode
 .vscode
 
-# Netflify
+# Netlify
 .netlify
 
 # Logs

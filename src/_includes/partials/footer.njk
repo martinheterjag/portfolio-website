@@ -1,0 +1,19 @@
+{%- set links = [
+	{ url: site.linkedIn, icon: "linkedin", title: "View LinkedIn profile" },
+	{ url: site.github, icon: "github", title: "View GitHub portfolio" },
+	{ url: site.youtube, icon: "youtube", title: "View YouTube channel" },
+	{ url: site.soundcloud, icon: "soundcloud", title: "View SoundCloud profile" },
+	{ url: "mailto:" + site.email, icon: "email", title: "Send me an email" }
+] -%}
+<footer class="site-footer">
+	<ul class="site-footer__links">
+		{%- for link in links %}
+		<li>
+			<a href="{{ link.url }}" title="{{ link.title }}" aria-label="{{ link.title }}" target="_blank" rel="noopener noreferrer">
+				<svg width="24" height="24" aria-hidden="true"><use href="#icon-{{ link.icon }}"></use></svg>
+			</a>
+		</li>
+		{%- endfor %}
+	</ul>
+	<p>&copy; {{ year }} Martin Eriksson</p>
+</footer>

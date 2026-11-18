@@ -1,55 +1,35 @@
-# 11ty Pug Portfolio
+# martinheterjag.com
 
-This project is based on https://github.com/vktrwlt/vktr-portfolio-v5 by Victor Tsang.
+Portfolio website, built with [Eleventy](https://www.11ty.dev/).
 
-Features:
+Originally based on https://github.com/vktrwlt/vktr-portfolio-v5 by Victor Tsang.
 
-- [11ty](https://www.11ty.io/) for templates and site generation
-- [TailwindCSS](https://tailwindcss.com/) for a utility first CSS workflow
-- [PurgeCSS](https://purgecss.com/) for optimizing CSS output
-- [PostCSS](https://postcss.org/) for processing Tailwind
-- [Sass/SCSS](https://github.com/sass/dart-sass) for leveraging other vendor stylesheets with Tailwind
-- [Webpack](https://webpack.js.org/) for optimizing our JS and CSS files
-- [Babel](https://babeljs.io/) for ES6 support
-- [HTML minifier](https://www.npmjs.com/package/html-minifier) to minify production HTML
+## Stack
 
-## Prerequisites
+- [Eleventy 3](https://www.11ty.dev/) with Nunjucks templates
+- Plain CSS (no build step), inlined into each page
+- [Eleventy Image](https://www.11ty.dev/docs/plugins/image/) for responsive AVIF/WebP images
+- [Mulish](https://fontsource.org/fonts/mulish) variable font, self-hosted
 
-- [Node and NPM](https://nodejs.org/)
+## Project layout
+
+- `src/_data/` – site content: projects, navigation, page titles
+- `src/_includes/` – layout, header, footer, icons and CSS
+- `src/*.njk` – pages; `src/project.njk` generates one page per project
+- `src/assets/images/<project>/` – project images (`hero`, `thumbnail`, section images)
+- `src/static/` – files copied as-is to the site root (favicons, manifest)
+
+## Adding a project
+
+1. Add an entry to `src/_data/portfolioList.js`.
+2. Add its images to `src/assets/images/<id>/`.
 
 ## Running locally
 
-```bash
+Requires Node 22 or newer.
 
-# install the project dependencies
+```bash
 npm install
-
-# run the build and server locally
-npm start
-
-View the site at http://localhost:3000/
-```
-
-## Previewing the production build
-
-When building for production, an extra build step will strip out all CSS classes not used in the site. This step is not performed during the automatic rebuilds which take place during dev.
-
-```bash
-
-# run the production build
-npm run build
-npm run serve
-```
-
-## Other Scripts
-```bash
-
-# check to see latest packages
-npm run update-check
-
-# update all to latest
-npm run update
-
-# run npm audit and add risky dependencies in resolutions
-npm run preinstall
+npm start        # dev server at http://localhost:8080
+npm run build    # production build into dist/
 ```

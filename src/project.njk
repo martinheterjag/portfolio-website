@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: portfolioList
+  size: 1
+  alias: project
+permalink: "/project/{{ project.id }}/"
+eleventyComputed:
+  title: "{{ project.title }}"
+  description: "{{ project.description }}"
+---
+<article class="project">
+	<header class="project__header">
+		<h1>{{ project.title }}</h1>
+		<p class="lead">{{ project.description | safe }}</p>
+		{%- set hero = project.imagePath | imageFile(project.heroName) %}
+		{%- if hero %}
+		<img class="project__hero" src="{{ hero }}" alt="" loading="eager" fetchpriority="high">
+		{%- endif %}
+	</header>
+
+	<section class="prose">
+		<h2>Technologies</h2>
+		<ul class="tags">
+			{%- for tech in project.tech %}
+			<li>{{ tech | safe }}</li>
+			{%- endfor %}
+		</ul>
+	</section>
+
+	<section class="prose">
+		<h2>About this project</h2>
+		{%- for paragraph in project.about %}
+		<p>{{ paragraph | safe }}</p>
+		{%- endfor %}
+	</section>
+
+	{%- for section in project.moreDetails %}
+	<section class="prose">
+		{%- if section.sectionHeader %}
+		<h2>{{ section.sectionHeader }}</h2>
+		{%- endif %}
+		{%- set image = project.imagePath | imageFile(section.sectionHeaderImageName) %}
+		{%- if image %}
+		<img src="{{ image }}" alt="">
+		{%- endif %}
+		<p>{{ section.sectionDetails | safe }}</p>
+	</section>
+	{%- endfor %}
+
+	{%- if project.github %}
+	<section class="prose">
+		<p>View on <a href="{{ project.github }}" title="View on Github" target="_blank" rel="external noopener noreferrer" data-external>Github</a></p>
+	</section>
+	{%- endif %}
+</article>
