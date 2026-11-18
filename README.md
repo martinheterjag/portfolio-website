@@ -8,7 +8,7 @@ Features:
 - [TailwindCSS](https://tailwindcss.com/) for a utility first CSS workflow
 - [PurgeCSS](https://purgecss.com/) for optimizing CSS output
 - [PostCSS](https://postcss.org/) for processing Tailwind
-- [Sass/SCSS](https://github.com/sass/node-sass) for leveraging other vendor stylesheets with Tailwind
+- [Sass/SCSS](https://github.com/sass/dart-sass) for leveraging other vendor stylesheets with Tailwind
 - [Webpack](https://webpack.js.org/) for optimizing our JS and CSS files
 - [Babel](https://babeljs.io/) for ES6 support
 - [HTML minifier](https://www.npmjs.com/package/html-minifier) to minify production HTML
